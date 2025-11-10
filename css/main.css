@@ -12,7 +12,7 @@ body {
 
 /* main header rules */
 header {
-    background-color: red;
+    background-color: rgb(13, 166, 255);
     padding: 10px 0; 
 }
 
@@ -103,19 +103,34 @@ footer {
     display: none;
     background-repeat: no-repeat;
     background-size: 55vh;
-    background-position: 40px bottom;
 }
 
 .lightbox:target {
-    display: block;
+    display: block
 }
 
 #lightbox1 {
-    background-image: url(../images/Cap_LB_Bg.png);
+    background-image: url(../images/mortarion_LB_BG.png);
+    background-size: 60%; 
+    background-position: left bottom;
+}
+
+#lightbox2 {
+    background-image: url(../images/magnus_LB_BG.png);
+    background-size: 35%; 
+    background-position: 10% left bottom;
 }
 
 #lightbox3 {
-    background-image: url(../images/Thor_LB_Bg.png);
+    background-image: url(../images/angron_LB_BG.png);
+    background-size: 50%;
+    background-position: -5% top;
+}
+
+#lightbox4 {
+    background-image: url(../images/fulgrim_LB_BG.png);
+    background-size: 40%;
+    background-position: left bottom;
 }
 
 .lightbox-close {
