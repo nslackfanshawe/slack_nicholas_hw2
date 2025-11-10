@@ -1,0 +1,146 @@
+/* Focus in mobile size first */
+
+.hidden { 
+    display: none; 
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/* main header rules */
+header {
+    background-color: red;
+    padding: 10px 0; 
+}
+
+#main-logo { 
+    width: 300px; 
+    display: block;
+    margin: 0 auto;
+}
+
+/* main rules here */
+#character_nav {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #675050;
+    background-image: url('../images/characters_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#characters { 
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+#characters li { 
+    display: inline;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+#characters li img {
+    padding: 10px;
+    border: solid 1px #fff;
+    transition: all .5s ease-in-out;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, .9);
+}
+
+#characters li a { 
+    text-decoration: none; 
+}
+
+#characters li img:hover { 
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
+
+#instructions { 
+    padding: 20px; 
+}
+
+#instructions h3  {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#instructions p {  
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+/* footer rules here */
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#main-footer {
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+}
+
+/* Lightbox Rules */
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+}
+
+.lightbox:target {
+    display: block;
+}
+
+#lightbox1 {
+    background-image: url(../images/Cap_LB_Bg.png);
+}
+
+#lightbox3 {
+    background-image: url(../images/Thor_LB_Bg.png);
+}
+
+.lightbox-close {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 95vw;
+}
+
+.lightbox-close:hover {
+    color: red;
+}
+
+.lightbox section {
+    width: 700 px;
+    margin-left: 50%;
+    margin-top: 60px;
+}
+
+.lb-heading {
+    font-size: 32px;
+}
+
+.lightbox p {
+    line-height: 26px;
+}
+
