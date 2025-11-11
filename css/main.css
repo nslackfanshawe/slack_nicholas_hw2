@@ -8,6 +8,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
 /* main header rules */
@@ -111,8 +113,8 @@ footer {
 
 #lightbox1 {
     background-image: url(../images/mortarion_LB_BG.png);
-    background-size: 60%; 
-    background-position: left bottom;
+    background-size: 70%; 
+    background-position: -40% bottom;
 }
 
 #lightbox2 {
@@ -146,7 +148,7 @@ footer {
 }
 
 .lightbox section {
-    width: 700 px;
+    width: 700px;
     margin-left: 50%;
     margin-top: 60px;
 }
